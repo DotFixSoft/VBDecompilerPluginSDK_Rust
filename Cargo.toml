@@ -1,0 +1,16 @@
+[package]
+name = "vbdec_rust_plugin"
+version = "1.0.0"
+edition = "2021"
+authors = ["DotFix Software"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+# Low-level Windows API types
+winapi = { version = "0.3", features = ["winuser", "libloaderapi"] }
+
+# GUI Framework (lightweight wrapper around WinAPI)
+native-windows-gui = "1.0.12"
+native-windows-derive = "1.0.3"
