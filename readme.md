@@ -15,7 +15,7 @@ This SDK allows you to create native DLL plugins that interact directly with the
 
 To build the plugin, you will need:
 
-*   **VB Decompiler:** v12.0 or higher (to test the plugin).
+*   **VB Decompiler:** v9.4 or higher (to test the plugin).
 *   **Compiler/IDE:**
     *   Rust 1.70+ and Cargo. Target: `i686-pc-windows-msvc` (32-bit).
 
@@ -61,4 +61,5 @@ Permission is hereby granted to use, modify, and distribute this SDK for the pur
 ---
 Copyright (c) 2001-2026 **Sergey Chubchenko (DotFix Software)**. All rights reserved.
 [www.vb-decompiler.org](https://www.vb-decompiler.org)
+
 
