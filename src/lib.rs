@@ -30,7 +30,7 @@ pub struct PluginUi {
 
     // Text Box (Memo)
     #[nwg_control(text: "", size: (380, 240), position: (10, 10))]
-    #[nwg_control(flags: "VISIBLE|MULTI_LINE|VSCROLL")] // Исправленные флаги
+    #[nwg_control(flags: "VISIBLE|MULTI_LINE|VSCROLL")]
     txt_vb_project: nwg::TextBox,
 
     // Close Button
@@ -208,3 +208,4 @@ pub unsafe extern "system" fn VBDecompilerPluginLoad(hwnd: *mut c_void, _h_rich:
     // Dispatch events (blocking call, acts like ShowModal)
     nwg::dispatch_thread_events();
 }
+
